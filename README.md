@@ -46,27 +46,21 @@ Copy code
 
 npm install
 
-4. Set Up Environment Variables (TMDB API key)
+### 4. Set Up Environment Variables (TMDB API key)
+
 The TMDB API key used in this project is free and does not require payment information.
 
-Get Your Own API Key:
+**Get Your Own API Key:**
 
-Sign up for a free TMDB account and obtain your own API key from [TMDB](https://developer.themoviedb.org/docs/getting-started).
+Sign up for a free TMDB account and obtain your own API key from [TMDB](https://www.themoviedb.org/documentation/api).
 
+**Add Your API Key:**
 
-Add Your API Key:
+step 1. Create a `.env` file in the root of the project directory.
+step 2. Add your API key to the `.env` file as follows:
 
-Create a .env file in the root of the project directory.
-
-Add your API key to the .env file as follows:
-
-Copy code
-
-VITE_TMDB_API_KEY=your_tmdb_api_key
-
-Replace your_tmdb_api_key with the API key you obtained from TMDB.
-
-Security Note:
+   ```env
+   VITE_TMDB_API_KEY=your_tmdb_api_key
 
 While the TMDB API is free and you won’t be charged, it's still good practice to keep your API key private. Share the key only with trusted collaborators and avoid exposing it in public repositories.
 
