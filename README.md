@@ -43,15 +43,35 @@ Install the project’s dependencies using npm:
 sh
 npm install
 
-### 4. Set Up Environment Variables
+### 4. Set Up Environment Variables (TMDB API key)
 
-Create a .env file in the root of the project directory. Use the provided .env.example file as a reference and add your environment variables:
+TMDB API Key
+The TMDB API key used in this project is free and does not require payment information. W
+
+Get Your Own API Key:
+
+Sign up for a free TMDB account and obtain your own API key from TMDB.
+Add Your API Key:
+
+Create a .env file in the root of the project directory.
+
+Add your API key to the .env file as follows:
 
 env
-VITE_TMDB_API_KEY=your_tmdb_api_key
-Replace your_tmdb_api_key with your actual API keys and configuration values.
 
-Note: The TMDB API key is free and does not require payment details.
+Copy code
+
+VITE_TMDB_API_KEY=your_tmdb_api_key
+
+Replace your_tmdb_api_key with your actual API key.
+
+
+Replace your_tmdb_api_key with the API key you obtained from TMDB.
+
+Security Note:
+
+While the TMDB API is free and you won’t be charged, it's still good practice to keep your API key private. Share the key only with trusted collaborators and avoid exposing it in public repositories.
+
 
 ### 5. Run the Development Server
 
