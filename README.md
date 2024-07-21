@@ -25,7 +25,7 @@ Follow these steps to clone and run the project locally:
 
 Open your terminal and run the following command to clone the repository:
 
-```sh
+sh
 git clone https://github.com/your-username/Netflix-clone.git
 Replace your-username with your GitHub username.
 
@@ -45,12 +45,13 @@ npm install
 
 ### 4. Set Up Environment Variables (TMDB API key)
 
-TMDB API Key
-The TMDB API key used in this project is free and does not require payment information. W
+
+The TMDB API key used in this project is free and does not require payment information. 
 
 Get Your Own API Key:
 
 Sign up for a free TMDB account and obtain your own API key from TMDB.
+
 Add Your API Key:
 
 Create a .env file in the root of the project directory.
@@ -83,12 +84,20 @@ npm run dev
 By default, the application will be available at http://localhost:3000. Open this URL in your browser to view the project.
 
 Project Structure
+
 src/: Contains all the source code.
-components/: Reusable React components.
-pages/: React components for different pages.
-services/: API service files for fetching data.
-styles/: Tailwind CSS configuration and custom styles.
+
 public/: Static assets and the HTML template.
+
+components/: Reusable React components.
+
+pages/: React components for different pages.
+
+services/: API service files for fetching data.
+
+styles/: Tailwind CSS configuration and custom styles.
+
+
 Building for Production
 To create a production build of the project, run:
 
