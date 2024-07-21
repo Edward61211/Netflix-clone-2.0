@@ -33,15 +33,19 @@ Replace your-username with your GitHub username.
 2. Navigate to the Project Directory
 Change into the project directory:
 
-sh
+
 Copy code
+
 cd Netflix-clone
+
 3. Install Dependencies
 Install the project’s dependencies using npm:
 
-sh
+
 Copy code
+
 npm install
+
 4. Set Up Environment Variables (TMDB API key)
 The TMDB API key used in this project is free and does not require payment information.
 
@@ -55,9 +59,10 @@ Create a .env file in the root of the project directory.
 
 Add your API key to the .env file as follows:
 
-env
 Copy code
+
 VITE_TMDB_API_KEY=your_tmdb_api_key
+
 Replace your_tmdb_api_key with the API key you obtained from TMDB.
 
 Security Note:
@@ -65,14 +70,17 @@ Security Note:
 While the TMDB API is free and you won’t be charged, it's still good practice to keep your API key private. Share the key only with trusted collaborators and avoid exposing it in public repositories.
 
 5. Run the Development Server
+
 Start the development server with:
 
-sh
 Copy code
+
 npm run dev
+
 By default, the application will be available at http://localhost:3000. Open this URL in your browser to view the project.
 
 Project Structure
+
 src/: Contains all the source code.
 public/: Static assets and the HTML template.
 components/: Reusable React components.
@@ -82,7 +90,8 @@ styles/: Tailwind CSS configuration and custom styles.
 Building for Production
 To create a production build of the project, run:
 
-sh
 Copy code
+
 npm run build
+
 The build files will be placed in the dist directory. You can deploy these files to any static file hosting service.
