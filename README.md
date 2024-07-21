@@ -52,8 +52,7 @@ The TMDB API key used in this project is free and does not require payment infor
 
 **Get Your Own API Key:**
 
-Sign up for a free TMDB account and obtain your own API key from
--[TMDB](https://www.themoviedb.org/documentation/api).
+Sign up for a free TMDB account and obtain your own API key from TMDB
 
 **Add Your API Key:**
 
