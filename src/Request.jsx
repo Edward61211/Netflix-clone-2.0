@@ -1,4 +1,4 @@
-const key = import.meta.env.VITE_TMDB_API_KEY;
+const key = "47a497dd75198ec5af83474ae532ce0a";
 
 const requests = {
   requestPopular: `https://api.themoviedb.org/3/movie/popular?api_key=${key}&language=en-US&page=1`,
@@ -19,5 +19,4 @@ const movieVideos = (movieId) => {
   return `https://api.themoviedb.org/3/movie/${movieId}/videos?api_key=${key}&language=en-US`;
 };
 
-718821;
 export default requests;

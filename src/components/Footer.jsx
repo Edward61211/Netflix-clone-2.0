@@ -69,7 +69,7 @@ const Footer = () => {
         </div>
 
         <div className="w-[130px] flex items-center justify-center selctor bg-slate-200 text-gray-800 max-md:mx-auto px-1.5 py-1 rounded-md border-[1.5px] border-red-500 hover:ring-2 hover:ring-red-300 opacity-60">
-          <img src="/src/assets/worldwide.png" className="w-3.5 h-3.5 mr-1 " />
+          <img src="src/assets/worldwide.png" className="w-3.5 h-3.5 mr-1 " />
           <select className="cursor-pointer bg-slate-200 p-0 border-none hidden lg:block">
             <option value="English">English</option>
             <option value="Chinese">Chinese</option>

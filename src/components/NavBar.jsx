@@ -11,7 +11,7 @@ const NavBar = ({ buttonText = "Sign In", redirectPath = "/login" }) => {
           <a href="https://www.netflix.com" target="_blank">
             <img
               className="cursor-pointer hover:opacity-80"
-              src="/src/assets/logo.png"
+              src="src/assets/logo.png"
             />
           </a>
         </div>
@@ -20,10 +20,7 @@ const NavBar = ({ buttonText = "Sign In", redirectPath = "/login" }) => {
       <div className="">
         <div className="main flex items-center justify-center">
           <div className="hidden md:flex items-center justify-center selctor bg-[#181515] text-white ml-4 mr-1 md:mr-4 px-3 py-1 rounded-md border-[1.5px] border-red-500 hover:ring-2 hover:ring-red-300 opacity-70">
-            <img
-              src="/src/assets/worldwide.png"
-              className="w-3.5 h-3.5 mr-1 "
-            />
+            <img src="src/assets/worldwide.png" className="w-3.5 h-3.5 mr-1 " />
             <select className="cursor-pointer p-0 bg-[#181515] border-none">
               <option value="English">English</option>
               <option value="Chinese">Chinese</option>
