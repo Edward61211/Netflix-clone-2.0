@@ -6,7 +6,7 @@ import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
-    <BrowserRouter basename="/Netflix-clone-2.0/">
+    <BrowserRouter basename={"/Netflix-clone-2.0/"}>
       <App />
     </BrowserRouter>
   </React.StrictMode>
