@@ -13,7 +13,7 @@ const Download = () => {
               muted
               loop
             >
-              <source src="src/assets/v2.mp4" type="video/mp4" />
+              <source src="assets/v2.mp4" type="video/mp4" />
             </video>
           </div>
           {/* right  */}

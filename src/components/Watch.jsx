@@ -25,7 +25,7 @@ const Watch = () => {
               muted
               loop
             >
-              <source src="src/assets/v3.mp4" />
+              <source src="assets/v3.mp4" />
             </video>
           </div>
         </div>

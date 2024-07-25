@@ -14,7 +14,7 @@ const SelectUser = () => {
             <Link to={"/MainPage"}>
               <img
                 className="w-[184px] h-[184px] rounded border-2 border-transparent group-hover:border-2 group-hover:border-gray-300"
-                src="src/assets/u2.jpg"
+                src="assets/u2.jpg"
                 alt="Azrael"
               />
               <p className="text-gray-500 group-hover:text-gray-300 text-center">
@@ -27,7 +27,7 @@ const SelectUser = () => {
             <Link to={"/MainPage"}>
               <img
                 className="w-[184px] h-[184px] rounded border-2 border-transparent group-hover:border-2 group-hover:border-gray-300"
-                src="src/assets/u3.jpg"
+                src="assets/u3.jpg"
                 alt="Jessica"
               />
               <p className="text-gray-500 group-hover:text-gray-300 text-center">
@@ -41,7 +41,7 @@ const SelectUser = () => {
             <Link to={"/MainPage"}>
               <img
                 className="w-[184px] h-[184px] rounded border-2 border-transparent group-hover:border-2 group-hover:border-gray-300"
-                src="src/assets/u4.jpg"
+                src="assets/u4.jpg"
                 alt="Monica"
               />
               <p className="text-gray-500 text-center group-hover:text-gray-300">
@@ -55,7 +55,7 @@ const SelectUser = () => {
             <Link to={"/MainPage"}>
               <img
                 className="w-[184px] h-[184px] rounded border-2 border-transparent group-hover:border-2 group-hover:border-gray-300"
-                src="src/assets/u1.jpg"
+                src="assets/u1.jpg"
                 alt="Veronica"
               />
               <p className="text-gray-500 text-center group-hover:text-gray-300">
