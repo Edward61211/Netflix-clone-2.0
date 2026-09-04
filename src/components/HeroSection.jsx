@@ -1,44 +1,7 @@
-import React, { useState } from "react";
+import { Link } from "react-router-dom";
 import NavBar from "./NavBar";
-import Swal from "sweetalert2";
-import withReactContent from "sweetalert2-react-content";
 
 const HeroSection = () => {
-  const [email, setEmail] = useState("");
-  const mySwal = withReactContent(Swal);
-
-  const handleEmailChange = (e) => {
-    e.preventDefault();
-    setEmail(e.target.value);
-  };
-  const handleEmailSubmit = () => {
-    if (email.trim() !== "") {
-      const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
-      if (emailPattern.test(email)) {
-        mySwal.fire({
-          icon: "success",
-          title: "Email submitted successfully.",
-        });
-        setEmail("");
-      } else {
-        mySwal.fire({
-          icon: "error",
-          title: "Please enter a valid email address.",
-          text: "example: cat888@gmail.com",
-          footer:
-            '<a href="https://www.cat-gpt.com/">Why do I have this issue?</a>',
-        });
-      }
-    } else {
-      mySwal.fire({
-        icon: "question",
-        title: "Please enter an email address.",
-        text: "example: cat888@gmail.com",
-        footer:
-          '<a href="https://www.cat-gpt.com/">Why do I have this issue?</a>',
-      });
-    }
-  };
   return (
     <>
       <div
@@ -63,21 +26,11 @@ const HeroSection = () => {
               Watch anywhere. Cancel anytime.
             </p>
             <p className="text-white text-center lg:text-lg md:text-lg text-lg mb-5">
-              Ready to watch? Enter your email.
+              Explore the interface with fictional demo profiles.
             </p>
-            <div className="flex flex-wrap justify-center items-center space-x-2">
-              <input
-                type="email"
-                value={email}
-                onChange={handleEmailChange}
-                required
-                name="email"
-                className="w-80 lg:w-96 md:w-96 mb-0 max-[491px]:mb-5 bg-slate-100 text-black text-lg py-2 px-3 rounded-md opacity-50 border border-red-600 hover:ring-1 hover:ring-red-300 outline-none"
-                placeholder="Email"
-              />
-              <button
-                type="button"
-                onClick={handleEmailSubmit}
+            <div className="flex justify-center items-center">
+              <Link
+                to="/login"
                 className="bg-red-600 px-5 py-2 flex items-center justify-center rounded-lg hover:bg-red-500"
               >
                 <p className="text-white font-bold text-lg">Get Started</p>
@@ -95,7 +48,7 @@ const HeroSection = () => {
                     d="M8.25 4.5l7.5 7.5-7.5 7.5"
                   />
                 </svg>
-              </button>
+              </Link>
             </div>
           </div>
         </div>
